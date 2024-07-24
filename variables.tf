@@ -8,7 +8,7 @@ variable "name" {
 
 variable "repository" {
   type        = string
-  default     = "https://github.com/opsstation/terraform-aws-lambda"
+  default     = "https://github.com/yadavprakash/terraform-aws-lambda"
   description = "Terraform current module repo"
 }
 
@@ -32,8 +32,8 @@ variable "attributes" {
 
 variable "managedby" {
   type        = string
-  default     = "opsstation"
-  description = "ManagedBy, eg 'opsstation'."
+  default     = "yadavprakash"
+  description = "ManagedBy, eg 'yadavprakash'."
 }
 
 # Module      : Lambda function
